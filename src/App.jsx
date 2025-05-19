@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import Home from "./Pages/Home";
-import Menu from "./Pages/Menu";
-import Gallery from "./Pages/Gallery";
+
+
 
 function App() {
   return (
@@ -20,33 +20,14 @@ function App() {
           >
             Home
           </NavLink>
-          <NavLink
-            to="/menu"
-            className={({ isActive }) =>
-              isActive
-                ? "text-white bg-pink-600 px-4 py-1 rounded-full font-semibold transition"
-                : "text-white hover:text-yellow-100 font-semibold transition"
-            }
-          >
-            Menu
-          </NavLink>
-          <NavLink
-            to="/gallery"
-            className={({ isActive }) =>
-              isActive
-                ? "text-white bg-pink-600 px-4 py-1 rounded-full font-semibold transition"
-                : "text-white hover:text-yellow-100 font-semibold transition"
-            }
-          >
-            Gallery
-          </NavLink>
+          
+          
         </nav>
 
         {/* 📄 Pages */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/gallery" element={<Gallery />} />
+          {/* <Route path="/gallery" element={<Gallery />} /> */}
         </Routes>
       </div>
     </Router>
