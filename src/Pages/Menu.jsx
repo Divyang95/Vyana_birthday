@@ -6,7 +6,7 @@ function Menu() {
         <div className="text-center p-6 bg-gradient-to-br from-pink-200 via-purple-300 to-blue-200">
       <h2 className="text-2xl font-bold text-pink-600 mb-4">🎂 Party Menu</h2>
       <ul className="text-lg space-y-2">
-        <li>🥗Soup - Hot and Sour</li>
+        <li>🥗Soup - Manchau</li>
         <li>🥗Starter - Manchurian</li>
         <li>🥭Sweet - Mango ras</li>
         <li>🥗Vegetable - Paneer Tikka Masala</li>

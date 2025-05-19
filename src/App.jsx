@@ -5,7 +5,7 @@ import Gallery from "./Pages/Gallery";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Vyana_birthday/">
       <div className="min-h-screen bg-gradient-to-br from-pink-100 to-purple-200">
         {/* 🌈 Navigation Bar */}
         <nav className="flex justify-center space-x-6 p-4 bg-gradient-to-r from-pink-400 to-purple-500 shadow-md">
